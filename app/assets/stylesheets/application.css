@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+.random-letter {
+  display: flex;
+}
+.letter {
+  background-color:#3398DC;
+  margin: 3px;
+  padding: 4px;
+}

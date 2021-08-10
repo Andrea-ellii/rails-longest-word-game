@@ -1,0 +1,18 @@
+<div>
+<h1> New Game </h2>
+  <div class="random-letter">
+  <% @letters.each do |letter| %>
+    <div id="letter-space">
+    <%= letter%>
+    </div>
+  <% end %>
+  </div>
+
+<div>
+  <form action="attempt">
+  <input type="text" name="attempt">
+  <input type="submit" value="Ask!">
+</form>
+</div>
+
+</div>

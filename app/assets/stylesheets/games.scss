@@ -1,0 +1,15 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// .random-letter {
+//   display: flex;
+// }
+#letter-space {
+  background-color:#3398DC;
+  margin: 3px;
+  padding: 4px;
+  display: inline-block;
+  justify-content: space-between;
+  grid-template-columns: 120px 120px 120px;
+}
